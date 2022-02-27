@@ -1,0 +1,11 @@
+E:\csharp\023strings\023strings\bin\Debug\023strings.exe.config
+E:\csharp\023strings\023strings\bin\Debug\023strings.exe
+E:\csharp\023strings\023strings\bin\Debug\023strings.pdb
+E:\csharp\023strings\023strings\obj\Debug\023strings.csproj.AssemblyReference.cache
+E:\csharp\023strings\023strings\obj\Debug\023strings.csproj.SuggestedBindingRedirects.cache
+E:\csharp\023strings\023strings\obj\Debug\_023strings.Form1.resources
+E:\csharp\023strings\023strings\obj\Debug\_023strings.Properties.Resources.resources
+E:\csharp\023strings\023strings\obj\Debug\023strings.csproj.GenerateResource.cache
+E:\csharp\023strings\023strings\obj\Debug\023strings.csproj.CoreCompileInputs.cache
+E:\csharp\023strings\023strings\obj\Debug\023strings.exe
+E:\csharp\023strings\023strings\obj\Debug\023strings.pdb

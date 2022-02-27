@@ -1,0 +1,11 @@
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\bin\Debug\OperadoresMatematicos.exe.config
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\bin\Debug\OperadoresMatematicos.exe
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\bin\Debug\OperadoresMatematicos.pdb
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.csproj.AssemblyReference.cache
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.csproj.SuggestedBindingRedirects.cache
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.Form1.resources
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.Properties.Resources.resources
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.csproj.GenerateResource.cache
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.csproj.CoreCompileInputs.cache
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.exe
+E:\csharp\OperadoresMatematicos\OperadoresMatematicos\obj\Debug\OperadoresMatematicos.pdb

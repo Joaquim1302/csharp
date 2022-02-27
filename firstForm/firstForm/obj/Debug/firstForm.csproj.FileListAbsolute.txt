@@ -1,0 +1,11 @@
+E:\csharp\firstForm\firstForm\bin\Debug\firstForm.exe.config
+E:\csharp\firstForm\firstForm\bin\Debug\firstForm.exe
+E:\csharp\firstForm\firstForm\bin\Debug\firstForm.pdb
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.csproj.AssemblyReference.cache
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.csproj.SuggestedBindingRedirects.cache
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.Properties.Resources.resources
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.csproj.GenerateResource.cache
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.csproj.CoreCompileInputs.cache
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.exe
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.pdb
+E:\csharp\firstForm\firstForm\obj\Debug\firstForm.Form1.resources

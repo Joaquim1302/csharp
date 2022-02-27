@@ -1,0 +1,11 @@
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.csproj.AssemblyReference.cache
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.csproj.SuggestedBindingRedirects.cache
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.Form1.resources
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.Properties.Resources.resources
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.csproj.GenerateResource.cache
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.csproj.CoreCompileInputs.cache
+E:\csharp\Condicoes\Condicoes\bin\Debug\Condicoes.exe.config
+E:\csharp\Condicoes\Condicoes\bin\Debug\Condicoes.exe
+E:\csharp\Condicoes\Condicoes\bin\Debug\Condicoes.pdb
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.exe
+E:\csharp\Condicoes\Condicoes\obj\Debug\Condicoes.pdb

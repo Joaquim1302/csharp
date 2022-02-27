@@ -1,0 +1,11 @@
+E:\csharp\repeticao\repeticao\bin\Debug\repeticao.exe.config
+E:\csharp\repeticao\repeticao\bin\Debug\repeticao.exe
+E:\csharp\repeticao\repeticao\bin\Debug\repeticao.pdb
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.csproj.AssemblyReference.cache
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.csproj.SuggestedBindingRedirects.cache
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.Form1.resources
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.Properties.Resources.resources
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.csproj.GenerateResource.cache
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.csproj.CoreCompileInputs.cache
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.exe
+E:\csharp\repeticao\repeticao\obj\Debug\repeticao.pdb
