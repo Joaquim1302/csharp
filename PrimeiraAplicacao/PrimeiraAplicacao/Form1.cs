@@ -5,10 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _025Classes
+namespace PrimeiraAplicacao
 {
     public partial class Form1 : Form
     {
@@ -17,14 +16,9 @@ namespace _025Classes
             InitializeComponent();
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            string nome = "joaquim";
-            pessoa p1 = new pessoa();
-            p1.nome = nome.ToUpper();
-            p1.sobrenome = "Marques";
-            p1.idade = 58;
-            p1.ApresentarSe();
+
         }
     }
 }
