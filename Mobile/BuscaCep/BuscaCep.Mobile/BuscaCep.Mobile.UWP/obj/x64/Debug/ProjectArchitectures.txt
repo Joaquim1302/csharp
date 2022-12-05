@@ -1,0 +1,1 @@
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile.UWP\BuscaCep.Mobile.UWP.csproj;x64

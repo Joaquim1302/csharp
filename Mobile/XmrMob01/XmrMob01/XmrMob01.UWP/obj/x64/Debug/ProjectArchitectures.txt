@@ -1,0 +1,1 @@
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01.UWP\XmrMob01.UWP.csproj;x64

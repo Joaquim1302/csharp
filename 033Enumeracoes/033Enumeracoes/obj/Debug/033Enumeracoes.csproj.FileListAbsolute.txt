@@ -1,0 +1,9 @@
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\033Enumeracoes.csproj.AssemblyReference.cache
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\_033Enumeracoes.Form1.resources
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\_033Enumeracoes.Properties.Resources.resources
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\033Enumeracoes.csproj.GenerateResource.cache
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\033Enumeracoes.csproj.CoreCompileInputs.cache
+E:\csharp\033Enumeracoes\033Enumeracoes\bin\Debug\033Enumeracoes.exe
+E:\csharp\033Enumeracoes\033Enumeracoes\bin\Debug\033Enumeracoes.pdb
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\033Enumeracoes.exe
+E:\csharp\033Enumeracoes\033Enumeracoes\obj\Debug\033Enumeracoes.pdb

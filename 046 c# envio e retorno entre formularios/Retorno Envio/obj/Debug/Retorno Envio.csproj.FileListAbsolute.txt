@@ -1,0 +1,12 @@
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\bin\Debug\Retorno Envio.exe.config
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\bin\Debug\Retorno Envio.exe
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\bin\Debug\Retorno Envio.pdb
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno_Envio.frm_1.resources
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno_Envio.frm_2.resources
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno_Envio.Properties.Resources.resources
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.exe
+E:\csharp - João Ribeiro\046 c# envio e retorno entre formularios\Retorno Envio\obj\Debug\Retorno Envio.pdb

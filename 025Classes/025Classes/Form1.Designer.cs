@@ -1,4 +1,6 @@
-﻿namespace _025Classes
+﻿using System;
+
+namespace _025Classes
 {
     partial class Form1
     {
@@ -49,6 +51,8 @@
             this.lsb.Name = "lsb";
             this.lsb.Size = new System.Drawing.Size(407, 433);
             this.lsb.TabIndex = 1;
+            this.lsb.SelectedIndexChanged += new System.EventHandler(this.lsb_SelectedIndexChanged);
+            this.lsb.DoubleClick += new System.EventHandler(this.lsb_DoubleClick);
             // 
             // Form1
             // 
@@ -61,6 +65,11 @@
             this.Text = "Form1";
             this.ResumeLayout(false);
 
+        }
+
+        private void lsb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

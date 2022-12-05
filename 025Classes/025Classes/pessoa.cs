@@ -14,7 +14,7 @@ namespace _025Classes
 
         public void Falar()
         {
-            System.Windows.Forms.MessageBox.Show("Olá, o meu nome é " + nome);
+            System.Windows.Forms.MessageBox.Show("Olá, o meu nome é " + contruirNome());
         }
 
         public void ApresentarSe()

@@ -1,0 +1,9 @@
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.csproj.AssemblyReference.cache
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.Form1.resources
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.Properties.Resources.resources
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.csproj.GenerateResource.cache
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.csproj.CoreCompileInputs.cache
+E:\csharp\exercícios\square_01_01\square_01_01\bin\Debug\square_01_01.exe
+E:\csharp\exercícios\square_01_01\square_01_01\bin\Debug\square_01_01.pdb
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.exe
+E:\csharp\exercícios\square_01_01\square_01_01\obj\Debug\square_01_01.pdb

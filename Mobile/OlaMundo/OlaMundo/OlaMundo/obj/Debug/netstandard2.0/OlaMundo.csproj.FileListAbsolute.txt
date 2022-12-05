@@ -1,0 +1,16 @@
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\bin\Debug\netstandard2.0\OlaMundo.deps.json
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\bin\Debug\netstandard2.0\OlaMundo.dll
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\bin\Debug\netstandard2.0\OlaMundo.pdb
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.csproj.AssemblyReference.cache
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.AssemblyInfoInputs.cache
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.AssemblyInfo.cs
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.csproj.CoreCompileInputs.cache
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\XamlC.stamp
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.dll
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\refint\OlaMundo.dll
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\OlaMundo.pdb
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\ref\OlaMundo.dll
+E:\csharp\Mobile\OlaMundo\OlaMundo\OlaMundo\obj\Debug\netstandard2.0\BemVindosPage.xaml.g.cs

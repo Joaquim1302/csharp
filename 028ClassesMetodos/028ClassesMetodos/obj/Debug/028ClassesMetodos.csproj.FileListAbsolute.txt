@@ -1,0 +1,9 @@
+E:\csharp\028ClassesMetodos\028ClassesMetodos\bin\Debug\028ClassesMetodos.exe
+E:\csharp\028ClassesMetodos\028ClassesMetodos\bin\Debug\028ClassesMetodos.pdb
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\028ClassesMetodos.csproj.AssemblyReference.cache
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\_028ClassesMetodos.Form1.resources
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\_028ClassesMetodos.Properties.Resources.resources
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\028ClassesMetodos.csproj.GenerateResource.cache
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\028ClassesMetodos.csproj.CoreCompileInputs.cache
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\028ClassesMetodos.exe
+E:\csharp\028ClassesMetodos\028ClassesMetodos\obj\Debug\028ClassesMetodos.pdb

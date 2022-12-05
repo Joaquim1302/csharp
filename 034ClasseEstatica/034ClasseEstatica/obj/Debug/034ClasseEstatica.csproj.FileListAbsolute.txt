@@ -1,0 +1,9 @@
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\034ClasseEstatica.csproj.AssemblyReference.cache
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\_034ClasseEstatica.Form1.resources
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\_034ClasseEstatica.Properties.Resources.resources
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\034ClasseEstatica.csproj.GenerateResource.cache
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\034ClasseEstatica.csproj.CoreCompileInputs.cache
+E:\csharp\034ClasseEstatica\034ClasseEstatica\bin\Debug\034ClasseEstatica.exe
+E:\csharp\034ClasseEstatica\034ClasseEstatica\bin\Debug\034ClasseEstatica.pdb
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\034ClasseEstatica.exe
+E:\csharp\034ClasseEstatica\034ClasseEstatica\obj\Debug\034ClasseEstatica.pdb

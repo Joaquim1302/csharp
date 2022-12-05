@@ -1,0 +1,9 @@
+E:\csharp\031CamposPropriedades\031CamposPropriedades\bin\Debug\031CamposPropriedades.exe
+E:\csharp\031CamposPropriedades\031CamposPropriedades\bin\Debug\031CamposPropriedades.pdb
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\031CamposPropriedades.csproj.AssemblyReference.cache
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\_031CamposPropriedades.Form1.resources
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\_031CamposPropriedades.Properties.Resources.resources
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\031CamposPropriedades.csproj.GenerateResource.cache
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\031CamposPropriedades.csproj.CoreCompileInputs.cache
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\031CamposPropriedades.exe
+E:\csharp\031CamposPropriedades\031CamposPropriedades\obj\Debug\031CamposPropriedades.pdb

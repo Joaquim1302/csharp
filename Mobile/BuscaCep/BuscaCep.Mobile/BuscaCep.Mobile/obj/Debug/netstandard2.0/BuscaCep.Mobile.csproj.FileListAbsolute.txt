@@ -1,0 +1,15 @@
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\bin\Debug\netstandard2.0\BuscaCep.Mobile.deps.json
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\bin\Debug\netstandard2.0\BuscaCep.Mobile.dll
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\bin\Debug\netstandard2.0\BuscaCep.Mobile.pdb
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.csproj.AssemblyReference.cache
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.AssemblyInfoInputs.cache
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.AssemblyInfo.cs
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.csproj.CoreCompileInputs.cache
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.dll
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\refint\BuscaCep.Mobile.dll
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\BuscaCep.Mobile.pdb
+E:\csharp\Mobile\BuscaCep\BuscaCep.Mobile\BuscaCep.Mobile\obj\Debug\netstandard2.0\ref\BuscaCep.Mobile.dll

@@ -1,0 +1,15 @@
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\bin\Debug\netstandard2.0\XmrMob01.deps.json
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\bin\Debug\netstandard2.0\XmrMob01.dll
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\bin\Debug\netstandard2.0\XmrMob01.pdb
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.csproj.AssemblyReference.cache
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.AssemblyInfoInputs.cache
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.AssemblyInfo.cs
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.csproj.CoreCompileInputs.cache
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XamlC.stamp
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.dll
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\refint\XmrMob01.dll
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\XmrMob01.pdb
+E:\csharp\Mobile\XmrMob01\XmrMob01\XmrMob01\obj\Debug\netstandard2.0\ref\XmrMob01.dll

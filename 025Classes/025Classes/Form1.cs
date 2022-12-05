@@ -27,5 +27,18 @@ namespace _025Classes
             p1.idade = 58;
             p1.ApresentarSe();
         }
+
+
+        private void lsb_DoubleClick(object sender, EventArgs e)
+        {
+            string nome = "joaquim";
+
+            pessoa p1 = new pessoa();
+            p1.nome = nome.ToUpper();
+            p1.sobrenome = "Marques";
+            p1.idade = 12;
+            p1.Falar();           
+       
+        }
     }
 }

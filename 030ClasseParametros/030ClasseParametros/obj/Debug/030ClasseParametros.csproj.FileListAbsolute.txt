@@ -1,0 +1,9 @@
+E:\csharp\030ClasseParametros\030ClasseParametros\bin\Debug\030ClasseParametros.exe
+E:\csharp\030ClasseParametros\030ClasseParametros\bin\Debug\030ClasseParametros.pdb
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\030ClasseParametros.csproj.AssemblyReference.cache
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\_030ClasseParametros.Form1.resources
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\_030ClasseParametros.Properties.Resources.resources
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\030ClasseParametros.csproj.GenerateResource.cache
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\030ClasseParametros.csproj.CoreCompileInputs.cache
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\030ClasseParametros.exe
+E:\csharp\030ClasseParametros\030ClasseParametros\obj\Debug\030ClasseParametros.pdb

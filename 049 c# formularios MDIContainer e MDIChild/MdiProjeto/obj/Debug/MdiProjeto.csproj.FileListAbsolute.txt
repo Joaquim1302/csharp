@@ -1,0 +1,12 @@
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\bin\Debug\MdiProjeto.exe.config
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\bin\Debug\MdiProjeto.exe
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\bin\Debug\MdiProjeto.pdb
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.frmMain.resources
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.frmUm.resources
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.Properties.Resources.resources
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.exe
+E:\csharp - João Ribeiro\049 c# formularios MDIContainer e MDIChild\MdiProjeto\obj\Debug\MdiProjeto.pdb
