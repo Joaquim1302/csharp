@@ -69,6 +69,30 @@ namespace PastasArquivos
             // get windows My Docs
             text_Mydocs.Text = 
                 Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            ct_pathFrom.Text = "E:\\csharp - João Ribeiro\\_config\\config.dat";
+            ct_pathTo.Text = @"E:\csharp - João Ribeiro\_config\bak\config.dat";
+        }
+
+        private void btn_moverArquivo_Click(object sender, EventArgs e)
+        {
+            if (!File.Exists(ct_pathTo.Text) || File.Exists(ct_pathTo.Text))
+                MessageBox.Show("");
+            else
+                File.Move(ct_pathFrom.Text, ct_pathTo.Text);  
+            
+        }
+
+        private void ct_moverTodos_Click(object sender, EventArgs e)
+        {
+            string pahtFrom = Path.GetDirectoryName(ct_pathFrom.Text);
+            string[] listFiles = Directory.GetFiles(
+                @"E:\csharp - João Ribeiro\_config\", "*.dat");
+            foreach (string file in listFiles)
+            {
+                File.Move(file, pahtFrom + @"\bak\" + Path.GetFileName(file));
+            }
+
         }
     }
 }
