@@ -1,0 +1,11 @@
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\bin\Debug\PastasArquivos.exe.config
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\bin\Debug\PastasArquivos.exe
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\bin\Debug\PastasArquivos.pdb
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.Form1.resources
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.Properties.Resources.resources
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.exe
+E:\csharp - João Ribeiro\055 c# trabalhando com pastas e arquivos\PastasArquivos\obj\Debug\PastasArquivos.pdb
