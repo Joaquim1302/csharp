@@ -94,5 +94,22 @@ namespace PastasArquivos
             }
 
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            const string message =
+                "Tem certeza que quer fechar o formulário?";
+            const string caption = "Fechando o formulário";
+            var result = MessageBox.Show(message, caption,
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+
+            // If the no button was pressed ...
+            if (result == DialogResult.No)
+            {
+                // cancel the closure of the form.
+                e.Cancel = true;
+            }
+        }
     }
 }
