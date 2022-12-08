@@ -1,0 +1,22 @@
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.exe
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.pdb
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.exe
+E:\csharp - João Ribeiro\065 c# projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.pdb
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.exe
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\bin\Debug\Calculadora.pdb
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.exe
+E:\csharp - João Ribeiro\_projeto 01 calculadora\Calculadora\obj\Debug\Calculadora.pdb

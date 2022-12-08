@@ -1,0 +1,11 @@
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\bin\Debug\Colecoes.exe.config
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\bin\Debug\Colecoes.exe
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\bin\Debug\Colecoes.pdb
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.csproj.AssemblyReference.cache
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.csproj.SuggestedBindingRedirects.cache
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.Form1.resources
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.Properties.Resources.resources
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.csproj.GenerateResource.cache
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.csproj.CoreCompileInputs.cache
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.exe
+E:\csharp - João Ribeiro\062 c# introducao a utilizacao de colecoes\Colecoes\obj\Debug\Colecoes.pdb

@@ -1,0 +1,12 @@
+E:\csharp\_projeto 02 Agenda\Agenda\bin\Debug\Agenda.exe.config
+E:\csharp\_projeto 02 Agenda\Agenda\bin\Debug\Agenda.exe
+E:\csharp\_projeto 02 Agenda\Agenda\bin\Debug\Agenda.pdb
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.csproj.AssemblyReference.cache
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.csproj.SuggestedBindingRedirects.cache
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.cache
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.exe
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.pdb
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.FrmMenu.resources
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.frmInserirEditar.resources
