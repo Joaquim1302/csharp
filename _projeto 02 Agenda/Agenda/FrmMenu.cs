@@ -21,6 +21,16 @@ namespace Agenda
 
             // apresenta a versão do programa
             label_versao.Text = Geral.versao;
+
+            // abrir diretamente o formulário em desenvolvimento
+            openInDevForm();
+        }
+
+        private void openInDevForm()
+        {
+            frmInserirEditar atualDevForm = new frmInserirEditar();
+            atualDevForm.ShowDialog();
+
         }
 
         private void cmd_sair_Click(object sender, EventArgs e)

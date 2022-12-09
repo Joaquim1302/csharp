@@ -47,7 +47,7 @@
             this.cmd_fechar.Location = new System.Drawing.Point(438, 547);
             this.cmd_fechar.Name = "cmd_fechar";
             this.cmd_fechar.Size = new System.Drawing.Size(121, 46);
-            this.cmd_fechar.TabIndex = 0;
+            this.cmd_fechar.TabIndex = 3;
             this.cmd_fechar.Text = "Fechar";
             this.cmd_fechar.UseVisualStyleBackColor = true;
             this.cmd_fechar.Click += new System.EventHandler(this.cmd_fechar_Click);
@@ -69,7 +69,7 @@
             this.text_nome.MaxLength = 50;
             this.text_nome.Name = "text_nome";
             this.text_nome.Size = new System.Drawing.Size(356, 23);
-            this.text_nome.TabIndex = 2;
+            this.text_nome.TabIndex = 0;
             // 
             // text_numero
             // 
@@ -78,7 +78,7 @@
             this.text_numero.MaxLength = 20;
             this.text_numero.Name = "text_numero";
             this.text_numero.Size = new System.Drawing.Size(118, 23);
-            this.text_numero.TabIndex = 4;
+            this.text_numero.TabIndex = 1;
             // 
             // label2
             // 
@@ -96,9 +96,10 @@
             this.cmd_gravar.Location = new System.Drawing.Point(124, 108);
             this.cmd_gravar.Name = "cmd_gravar";
             this.cmd_gravar.Size = new System.Drawing.Size(121, 46);
-            this.cmd_gravar.TabIndex = 5;
+            this.cmd_gravar.TabIndex = 2;
             this.cmd_gravar.Text = "Gravar";
             this.cmd_gravar.UseVisualStyleBackColor = true;
+            this.cmd_gravar.Click += new System.EventHandler(this.cmd_gravar_Click);
             // 
             // lista_contatos
             // 
@@ -134,7 +135,7 @@
             this.cmd_apagar.Location = new System.Drawing.Point(281, 547);
             this.cmd_apagar.Name = "cmd_apagar";
             this.cmd_apagar.Size = new System.Drawing.Size(121, 46);
-            this.cmd_apagar.TabIndex = 9;
+            this.cmd_apagar.TabIndex = 4;
             this.cmd_apagar.Text = "Apagar";
             this.cmd_apagar.UseVisualStyleBackColor = true;
             // 
@@ -144,7 +145,7 @@
             this.cmd_editar.Location = new System.Drawing.Point(124, 547);
             this.cmd_editar.Name = "cmd_editar";
             this.cmd_editar.Size = new System.Drawing.Size(121, 46);
-            this.cmd_editar.TabIndex = 10;
+            this.cmd_editar.TabIndex = 5;
             this.cmd_editar.Text = "Editar";
             this.cmd_editar.UseVisualStyleBackColor = true;
             // 
@@ -170,6 +171,7 @@
             this.Name = "frmInserirEditar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AGENDA - INSERIR /  EDITAR";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmInserirEditar_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

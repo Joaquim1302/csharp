@@ -14,12 +14,13 @@ namespace Agenda
         public static string versao = "v1.0.0";
 
         // lista de contatos
-        public static List<Contato> ListaContatos;
+        public static List<Contato> Lista_Contatos;
 
+        // ------------------------------------------
         public static void ConstroiListaContatos()
         {
             // instancia a lista
-            ListaContatos = new List<Contato>();
+            Lista_Contatos = new List<Contato>();
 
             // verificar se o arquivo existe
             if (File.Exists(PATH_AGENDA))
@@ -38,7 +39,7 @@ namespace Agenda
                     novo_contato.nome = nome;
                     novo_contato.numero= numero;
 
-                    ListaContatos.Add(novo_contato);
+                    Lista_Contatos.Add(novo_contato);
 
 
                 }
@@ -46,7 +47,40 @@ namespace Agenda
                 arqAgenda.Dispose();
             }
         }
+        
+        // ------------------------------------------
+        public static void GravarNovoRegistro(string _nome, string _numero)
+        {
+            // gravar novo resgistro (na lista e no arquivo)
+            //Contato novo = new Contato();
+            //novo.nome = _nome;
+            //novo.numero = _numero;
+            //Lista_Contatos.Add(novo);
+            //ou da forma abaixo, forma in line da
+            //construção da classe Contato, da  mesma forma
+            Lista_Contatos.Add(new Contato() { nome = _nome, numero = _numero});
+
+            // atualiza o arquivo
+            GravarArquivo();
+
+
+        }
+        
+        // ------------------------------------------
+        public static void GravarArquivo()
+        {
+            StreamWriter arquivo = new StreamWriter(PATH_AGENDA, false, Encoding.Default);
+
+            foreach(Contato contato in Lista_Contatos)
+            {
+                arquivo.WriteLine(contato.nome);
+                arquivo.WriteLine(contato.numero);  
+            }
+
+            arquivo.Dispose();
+        }
 
     }
+
 
 }
