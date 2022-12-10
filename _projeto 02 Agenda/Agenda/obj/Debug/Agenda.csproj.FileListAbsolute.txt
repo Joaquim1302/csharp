@@ -10,3 +10,5 @@ E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.exe
 E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.pdb
 E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.FrmMenu.resources
 E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.frmInserirEditar.resources
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.FrmTexto.resources
+E:\csharp\_projeto 02 Agenda\Agenda\obj\Debug\Agenda.FrmResultados.resources

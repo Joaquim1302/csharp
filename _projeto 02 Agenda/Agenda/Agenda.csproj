@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>agenda.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,6 +62,18 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResultados.Designer.cs">
+      <DependentUpon>FrmResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTexto.Designer.cs">
+      <DependentUpon>FrmTexto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geral.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +82,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResultados.resx">
+      <DependentUpon>FrmResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTexto.resx">
+      <DependentUpon>FrmTexto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,6 +110,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="agenda.ico" />
+    <Content Include="Oxygen-Icons.org-Oxygen-Apps-preferences-contact-list.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

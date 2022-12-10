@@ -12,6 +12,8 @@ namespace Agenda
 {
     public partial class FrmMenu : Form
     {
+
+        //------------------------------------------------------
         public FrmMenu()
         {
             InitializeComponent();
@@ -23,14 +25,15 @@ namespace Agenda
             label_versao.Text = Geral.versao;
 
             // abrir diretamente o formulário em desenvolvimento
-            openInDevForm();
+            //openInDevForm();
         }
 
+
+        //------------------------------------------------------
         private void openInDevForm()
         {
-            frmInserirEditar atualDevForm = new frmInserirEditar();
-            atualDevForm.ShowDialog();
-
+            FrmResultados frmResultados = new FrmResultados("");
+            frmResultados.ShowDialog();
         }
 
         private void cmd_sair_Click(object sender, EventArgs e)
@@ -45,11 +48,28 @@ namespace Agenda
 
         }
 
+
+        //------------------------------------------------------
         private void cmd_inserir_editar_Click(object sender, EventArgs e)
         {
             // abre quadro para gestão dos contatos
             frmInserirEditar frmEditar = new frmInserirEditar();
             frmEditar.ShowDialog();
+        }
+
+
+        //------------------------------------------------------
+        private void cmd_pesquisar_Click(object sender, EventArgs e)
+        {
+            FrmTexto frmTexto = new FrmTexto();
+            frmTexto.ShowDialog();
+
+            // quando fecha o form verifica se foi cancelado
+            if (frmTexto.cancelado) return;
+
+            // abrir o form com o resultado da pesquisa
+            FrmResultados frmResultados = new FrmResultados(frmTexto.texto);
+            frmResultados.ShowDialog();
         }
     }
 }

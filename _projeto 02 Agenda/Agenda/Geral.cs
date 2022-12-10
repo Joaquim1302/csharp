@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
+using System.Security.Principal;
 
 namespace Agenda
 {
@@ -80,7 +81,7 @@ namespace Agenda
             arquivo.Dispose();
         }
 
-    }
+    } // class Geral
 
 
-}
+} // namespace Agenda

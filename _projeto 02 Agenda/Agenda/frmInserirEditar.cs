@@ -12,6 +12,9 @@ namespace Agenda
 {
     public partial class frmInserirEditar : Form
     {
+        int indice;
+
+        // ------------------------------------------
         public frmInserirEditar()
         {
             InitializeComponent();
@@ -31,15 +34,19 @@ namespace Agenda
         private void ConstroiLista()
         {
             //  adiciona à lista da contatos os contatos registrados
-            lista_contatos.Items.Clear();
+            lst_contatos.Items.Clear();
 
             foreach(Contato contato  in Geral.Lista_Contatos)
             {
-                lista_contatos.Items.Add(contato.nome + " - " + contato.numero);
+                lst_contatos.Items.Add(contato.nome + " - " + contato.numero);
             }
 
             // atualiza o número de registros
-            label_numero_registros.Text = "Registros: " + lista_contatos.Items.Count.ToString();
+            label_numero_registros.Text = "Registros: " + lst_contatos.Items.Count.ToString();
+
+            // impedir edição e eliminação de registros
+            cmd_apagar.Enabled = false;
+            cmd_editar.Enabled = false;
         }
 
         // ------------------------------------------
@@ -79,6 +86,7 @@ namespace Agenda
             text_nome.Focus();
         }
 
+        // ------------------------------------------
         private void frmInserirEditar_KeyDown(object sender, KeyEventArgs e)
         {
             // enter = tab
@@ -88,5 +96,53 @@ namespace Agenda
             if (e.KeyCode == Keys.Enter)
                 this.SelectNextControl(this.ActiveControl, !e.Shift, true, true, true);
         }
+
+        // ------------------------------------------
+        private void lst_contatos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // -1 = nenhum selecionado
+            if(lst_contatos.SelectedIndex != -1)
+            {
+                indice = lst_contatos.SelectedIndex;
+                cmd_editar.Enabled = true;
+                cmd_apagar.Enabled = true;
+                //MessageBox.Show(lst_contatos.SelectedIndex.ToString());
+            }
+        }
+
+        // ------------------------------------------
+        private void apagarContato()
+        {
+            // remove a lista
+            Geral.Lista_Contatos.RemoveAt(indice);
+            // renova o arquivo
+            Geral.GravarArquivo();
+            // reconstroi a lista
+            ConstroiLista();
+        }        
+        
+        // ------------------------------------------
+        private void cmd_apagar_Click(object sender, EventArgs e)
+        {
+            apagarContato();
+        }
+
+        // ------------------------------------------
+        private void cmd_editar_Click(object sender, EventArgs e)
+        {
+
+            // prepara as textbox para um novo registro
+            Contato contato = new Contato();
+            Contato.partesContato(lst_contatos.Items[indice].ToString(), contato);
+
+            text_nome.Text = contato.nome;
+            text_numero.Text = contato.numero;
+            text_nome.Focus();
+
+            apagarContato();
+
+
+        }
+
     }
 }

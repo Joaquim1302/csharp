@@ -34,7 +34,7 @@
             this.text_numero = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cmd_gravar = new System.Windows.Forms.Button();
-            this.lista_contatos = new System.Windows.Forms.ListBox();
+            this.lst_contatos = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label_numero_registros = new System.Windows.Forms.Label();
             this.cmd_apagar = new System.Windows.Forms.Button();
@@ -101,13 +101,14 @@
             this.cmd_gravar.UseVisualStyleBackColor = true;
             this.cmd_gravar.Click += new System.EventHandler(this.cmd_gravar_Click);
             // 
-            // lista_contatos
+            // lst_contatos
             // 
-            this.lista_contatos.FormattingEnabled = true;
-            this.lista_contatos.Location = new System.Drawing.Point(12, 190);
-            this.lista_contatos.Name = "lista_contatos";
-            this.lista_contatos.Size = new System.Drawing.Size(546, 342);
-            this.lista_contatos.TabIndex = 6;
+            this.lst_contatos.FormattingEnabled = true;
+            this.lst_contatos.Location = new System.Drawing.Point(12, 190);
+            this.lst_contatos.Name = "lst_contatos";
+            this.lst_contatos.Size = new System.Drawing.Size(546, 342);
+            this.lst_contatos.TabIndex = 6;
+            this.lst_contatos.SelectedIndexChanged += new System.EventHandler(this.lst_contatos_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -138,6 +139,7 @@
             this.cmd_apagar.TabIndex = 4;
             this.cmd_apagar.Text = "Apagar";
             this.cmd_apagar.UseVisualStyleBackColor = true;
+            this.cmd_apagar.Click += new System.EventHandler(this.cmd_apagar_Click);
             // 
             // cmd_editar
             // 
@@ -148,6 +150,7 @@
             this.cmd_editar.TabIndex = 5;
             this.cmd_editar.Text = "Editar";
             this.cmd_editar.UseVisualStyleBackColor = true;
+            this.cmd_editar.Click += new System.EventHandler(this.cmd_editar_Click);
             // 
             // frmInserirEditar
             // 
@@ -158,7 +161,7 @@
             this.Controls.Add(this.cmd_apagar);
             this.Controls.Add(this.label_numero_registros);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lista_contatos);
+            this.Controls.Add(this.lst_contatos);
             this.Controls.Add(this.cmd_gravar);
             this.Controls.Add(this.text_numero);
             this.Controls.Add(this.label2);
@@ -185,7 +188,7 @@
         private System.Windows.Forms.TextBox text_numero;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button cmd_gravar;
-        private System.Windows.Forms.ListBox lista_contatos;
+        private System.Windows.Forms.ListBox lst_contatos;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label_numero_registros;
         private System.Windows.Forms.Button cmd_apagar;
