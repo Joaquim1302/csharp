@@ -1,0 +1,12 @@
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.csproj.AssemblyReference.cache
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.csproj.SuggestedBindingRedirects.cache
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.Form1.resources
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.Properties.Resources.resources
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.csproj.GenerateResource.cache
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.csproj.CoreCompileInputs.cache
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\bin\Debug\Access_Save_Update_Delete.exe.config
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\bin\Debug\Access_Save_Update_Delete.exe
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\bin\Debug\Access_Save_Update_Delete.pdb
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.exe
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\obj\Debug\Access_Save_Update_Delete.pdb
+E:\csharp\_project Access Connection\Access_Save_Update_Delete\bin\Debug\csave.accdb

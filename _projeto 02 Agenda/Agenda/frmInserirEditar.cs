@@ -89,8 +89,7 @@ namespace Agenda
         // ------------------------------------------
         private void frmInserirEditar_KeyDown(object sender, KeyEventArgs e)
         {
-            // enter = tab
-            // adicionar this.KeyPreview = true; na tab propriedades ou
+            // para permitir enter = tab this.KeyPreview = true; na tab propriedades ou
             // adicionar no construtor do form
             e.Handled= true;
             if (e.KeyCode == Keys.Enter)
