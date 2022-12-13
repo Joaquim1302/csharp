@@ -1,0 +1,28 @@
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\bin\Debug\LigacaoBD.exe.config
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\bin\Debug\LigacaoBD.exe
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\bin\Debug\LigacaoBD.pdb
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\bin\Debug\System.Data.SqlServerCe.dll
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.csproj.AssemblyReference.cache
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.csproj.SuggestedBindingRedirects.cache
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.Form1.resources
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.Properties.Resources.resources
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.csproj.GenerateResource.cache
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.csproj.CoreCompileInputs.cache
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.csproj.CopyComplete
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.exe
+E:\csharp\078 c# comunicando com bases de dados no c#\LigacaoBD\obj\Debug\LigacaoBD.pdb
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\bin\Debug\LigacaoBD.exe.config
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\bin\Debug\LigacaoBD.exe
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\bin\Debug\LigacaoBD.pdb
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\bin\Debug\System.Data.SqlServerCe.dll
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.csproj.AssemblyReference.cache
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.csproj.SuggestedBindingRedirects.cache
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.Form1.resources
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.Properties.Resources.resources
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.csproj.GenerateResource.cache
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.csproj.CoreCompileInputs.cache
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.csproj.CopyComplete
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.exe
+E:\csharp\079 c# recolher informacao a partir da base de dados\LigacaoBD\obj\Debug\LigacaoBD.pdb

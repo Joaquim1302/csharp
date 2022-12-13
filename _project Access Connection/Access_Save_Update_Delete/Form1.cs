@@ -67,7 +67,32 @@ namespace Access_Save_Update_Delete
             dataViewer();
         }
 
-        private void btnAddData_Click(object sender, EventArgs e)
+        //private void addData()
+        //{
+        //    try
+        //    {
+        //        conn.Open();
+
+        //        OleDbCommand cmd = conn.CreateCommand();
+        //        cmd.CommandType = CommandType.Text;
+        //        cmd.CommandText = "INSERT INTO csave(StudentID, Firstname, Surname, Address, Postcode, Telephone) values('"
+        //            + txtStudentID.Text + "', '" + txtFirstname.Text + "', '" + txtSurname.Text + "', '"
+        //            + txtAddress.Text + "', '" + txtPostcode.Text + "', '" + txtTelephone.Text + "')";
+        //        cmd.ExecuteNonQuery();
+        //        MessageBox.Show("Registro salvo em Database", "Access Connect",
+        //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        //        conn.Close();
+        //        dataViewer();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message, "Access Connect",
+        //            MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        conn.Close();
+        //    }
+        //}
+        private void addDataParam()
         {
             try
             {
@@ -75,22 +100,36 @@ namespace Access_Save_Update_Delete
 
                 OleDbCommand cmd = conn.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "INSERT INTO csave(StudentID, Firstname, Surname, Address, Postcode, Telephone) values('"
-                    + txtStudentID.Text + "', '" + txtFirstname.Text + "', '" + txtSurname.Text + "', '"
-                    + txtAddress.Text + "', '" + txtPostcode.Text + "', '" + txtTelephone.Text + "')";
+                cmd.CommandText = "INSERT INTO csave(StudentID, Firstname, Surname, Address, Postcode, Telephone)" +
+                    "VALUES(@StudentID, @Firstname, @Surname, @Address, @Postcode, @Telephone)";
+
+                // add named parameters
+                cmd.Parameters.AddRange(new OleDbParameter[]
+                {
+                   new OleDbParameter("@StudentID", txtStudentID.Text),
+                   new OleDbParameter("@Firstname", txtFirstname.Text),
+                   new OleDbParameter("@Surname", txtSurname.Text),
+                   new OleDbParameter("@Address", txtAddress.Text),
+                   new OleDbParameter("@Postcode", txtPostcode.Text),
+                   new OleDbParameter("@Telephone", txtTelephone.Text),
+                });
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Registro salvo em Database", "Access Connect", 
+                MessageBox.Show("Registro salvo em Database", "Access Connect",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 conn.Close();
-                dataViewer();   
+                dataViewer();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Access Connect", 
+                MessageBox.Show(ex.Message, "Access Connect",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 conn.Close();
             }
+        }
+        private void btnAddData_Click(object sender, EventArgs e)
+        {
+            addDataParam();
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)

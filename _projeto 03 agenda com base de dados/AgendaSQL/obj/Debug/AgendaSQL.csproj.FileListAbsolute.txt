@@ -1,0 +1,26 @@
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.exe.config
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.exe
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.pdb
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.AssemblyReference.cache
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.SuggestedBindingRedirects.cache
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.frmMenu.resources
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.Properties.Resources.resources
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.GenerateResource.cache
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.CoreCompileInputs.cache
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.exe
+E:\csharp\098 c# projeto 3 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.pdb
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.exe.config
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.exe
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\bin\Debug\AgendaSQL.pdb
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\bin\Debug\System.Data.SqlServerCe.dll
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.AssemblyReference.cache
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.SuggestedBindingRedirects.cache
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.frmMenu.resources
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.Properties.Resources.resources
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.GenerateResource.cache
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.CoreCompileInputs.cache
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csproj.CopyComplete
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.exe
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.pdb
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.FrmAdicionarEditar.resources

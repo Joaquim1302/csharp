@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LigacaoBD", "LigacaoBD.csproj", "{F516FAB8-200B-481E-A667-9691E80372FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F516FAB8-200B-481E-A667-9691E80372FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F516FAB8-200B-481E-A667-9691E80372FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F516FAB8-200B-481E-A667-9691E80372FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F516FAB8-200B-481E-A667-9691E80372FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7B700FE-E585-4C03-9510-B47FBF2ACA08}
+	EndGlobalSection
+EndGlobal
