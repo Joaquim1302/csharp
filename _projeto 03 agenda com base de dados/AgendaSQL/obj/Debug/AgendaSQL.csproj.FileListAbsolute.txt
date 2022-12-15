@@ -24,3 +24,5 @@ E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.csp
 E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.exe
 E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.pdb
 E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.FrmAdicionarEditar.resources
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.FrmResultados.resources
+E:\csharp\_projeto 03 agenda com base de dados\AgendaSQL\obj\Debug\AgendaSQL.FrmPesquisa.resources

@@ -40,5 +40,32 @@ namespace AgendaSQL
             FrmAdicionarEditar frm = new FrmAdicionarEditar();
             frm.ShowDialog();
         }
+
+        //-------------------------------------------------
+        private void cmd_ver_tudo_Click(object sender, EventArgs e)
+        {
+            // abrir um quadro para apresentação de todos os resultados
+            FrmResultados frm = new FrmResultados();
+            frm.ShowDialog();
+        }
+
+        private void cmd_pesquisar_Click(object sender, EventArgs e)
+        {
+            // vai abrir o form para pesquisa de um contato
+            FrmPesquisa frmP = new FrmPesquisa();
+            frmP.ShowDialog();
+
+            // verifica se o form não foi cancelado
+            if (frmP.cancelado)
+            {
+                frmP.Dispose();
+                return;
+            }
+
+            // executa a pesquisa
+            FrmResultados frmR = new FrmResultados(frmP.texto_pesquisa);
+            frmR.ShowDialog();
+
+        }
     }
 }

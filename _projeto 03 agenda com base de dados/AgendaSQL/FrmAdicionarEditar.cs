@@ -38,6 +38,19 @@ namespace AgendaSQL
         private void ApresentaContato() 
         {
             // mostra o que vai ser editado
+            SqlCeConnection ligacao = new SqlCeConnection("Data Source = " + Vars.base_dados);
+            ligacao.Open();
+
+            DataTable dados = new DataTable();
+            SqlCeDataAdapter adapter = new SqlCeDataAdapter("SELECT * FROM contatos WHERE id_contato = " +
+                this.id_contato, ligacao);
+            adapter.Fill(dados);
+            ligacao.Dispose();
+
+            // colocar os dados nos textboxes
+            text_nome.Text = dados.Rows[0]["nome"].ToString();
+            text_telefone.Text = dados.Rows[0]["telefone"].ToString();
+
         }
 
         //--------------------------------------------------
@@ -114,6 +127,50 @@ namespace AgendaSQL
             #region EDITAR CONTATO
             else
             {
+                // edita o contato na bade de dados
+                SqlCeCommand com = new SqlCeCommand();
+                com.Connection = ligacao;
+
+                // parametros
+                com.Parameters.AddWithValue("@id_contato", id_contato);
+                com.Parameters.AddWithValue("@nome", text_nome.Text);
+                com.Parameters.AddWithValue("@telefone", text_telefone.Text);
+                com.Parameters.AddWithValue("@atualizacao", DateTime.Now);
+
+                // verifica se existe registro com o mesmo nome e id_contato diferente
+                DataTable dados = new DataTable();
+                SqlCeDataAdapter adapter = new SqlCeDataAdapter();
+                com.CommandText = "SELECT * FROM contatos WHERE nome = @nome AND id_contato <> @id_contato";
+                adapter.SelectCommand = com;
+                adapter.Fill(dados);
+                if (dados.Rows.Count != 0)
+                {
+                    // foi encontrado um registro como mesmo nome
+                    if (MessageBox.Show("Já existe um registro com o mesmo nome." + 
+                        "\nDeseja gravar assim mesmo?", "Agenda SQL",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                        return;
+                }
+
+                // editar o registro selecionado
+                com.CommandText = "UPDATE contatos SET " +
+                                    "nome = @nome, " +
+                                    "telefone = @telefone, " +
+                                    "atualizacao =  @atualizacao " +
+                                    "WHERE id_contato = @id_contato";
+                com.ExecuteNonQuery();
+
+                // atualiza grid
+                try // porque pode não estar aberto
+                {
+                    FrmResultados frm = new FrmResultados();
+                    frm.ConstruirGrid();
+                }
+                finally
+                {
+                    // fecha o form
+                    this.Close();
+                }
 
             }
             #endregion

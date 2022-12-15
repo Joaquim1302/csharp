@@ -45,6 +45,7 @@
             this.cmd_pesquisar.TabIndex = 0;
             this.cmd_pesquisar.Text = "Pesquisar";
             this.cmd_pesquisar.UseVisualStyleBackColor = true;
+            this.cmd_pesquisar.Click += new System.EventHandler(this.cmd_pesquisar_Click);
             // 
             // label_titulo
             // 
@@ -88,6 +89,7 @@
             this.cmd_ver_tudo.TabIndex = 0;
             this.cmd_ver_tudo.Text = "Visualizar Tudo";
             this.cmd_ver_tudo.UseVisualStyleBackColor = true;
+            this.cmd_ver_tudo.Click += new System.EventHandler(this.cmd_ver_tudo_Click);
             // 
             // label_versao
             // 
