@@ -1,0 +1,14 @@
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\bin\Debug\GestorBD.exe.config
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\bin\Debug\GestorBD.exe
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\bin\Debug\GestorBD.pdb
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\bin\Debug\System.Data.SqlServerCe.dll
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.csproj.AssemblyReference.cache
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.csproj.SuggestedBindingRedirects.cache
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.Form1.resources
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.Properties.Resources.resources
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.csproj.GenerateResource.cache
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.csproj.CoreCompileInputs.cache
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.csproj.CopyComplete
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.exe
+E:\csharp\_projeto 4 gestor de bases de dados\GestorBD\obj\Debug\GestorBD.pdb
