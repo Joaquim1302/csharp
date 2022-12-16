@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 using System.Data.SqlServerCe; //C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Desktop
 using System.IO;
 using System.Windows.Forms;
@@ -21,11 +22,12 @@ namespace GestorBD
         SqlCeDataAdapter adapter;
 
         string strConn = "";
-        string pasta_bd = "";
+        string pasta_bd = @"E:\csharp\_db\Database_Files\";
         string bd_password = "";
 
         //----------------------------------------------
-        public cl_GestorBD() { }
+        public cl_GestorBD() { } // somente para poder usar algum método propriedade
+
         //----------------------------------------------
         public cl_GestorBD(string base_dados)
         {
@@ -56,9 +58,11 @@ namespace GestorBD
         }
 
         //----------------------------------------------
-        public void CriarBaseDados(string base_dados, bool verificar_arquivo = false)
+        public void CriarBaseDados(string base_dados, List<string> instrucoes, bool verificar_arquivo = false)
         {
             // base_dados sempre terá o path completo do BD
+
+            #region CRIAR ARQUIVO
 
             // criar uma base de dados nova
             #region VERIFICA EXISTÊNCIA DA BASE DE DADOS
@@ -74,6 +78,19 @@ namespace GestorBD
                         MessageBoxIcon.Warning) == DialogResult.No)
                     {
                         return;
+                    }
+                    else
+                    {
+                        // apagar o arquivo
+                        try
+                        {
+                            File.Delete(base_dados);
+                        }
+                        catch 
+                        {
+                            MessageBox.Show("Aconteceu um erro ao eliminar a base de dados.");
+                            return;
+                        }
                     }
                 }
             }
@@ -94,7 +111,70 @@ namespace GestorBD
             SqlCeEngine motor = new SqlCeEngine(str.ToString());
             motor.CreateDatabase();
 
+            #endregion
+
+            #region CRIAÇÃO DAS TABELAS
+            //--------------------------------------------------
+            // criação das tabelas dentro da base de dados
+            strConn = str.ToString();
+            ligacao = new SqlCeConnection(strConn);
+            ligacao.Open();
+            comando = new SqlCeCommand();
+            comando.Connection = ligacao;
+
+            // executa as instruções para criar as tabelas
+            str = null;
+            foreach(string item in instrucoes)
+            {
+                if (item.StartsWith("CREATE TABLE")) 
+                { 
+                    // inicia a construção da query 
+                    str = new StringBuilder();
+                    str.Append(item);
+                }
+                else if (item == "END")
+                {
+                    // fechar a criação da query e executá-la
+                    comando.CommandText = str.ToString();
+                    comando.ExecuteNonQuery();
+                }
+                else
+                {
+                    // adicionar instrução ao stringbuilder
+                    str.Append(item);
+                }
+            } 
+
+            // fecha o comando e a ligação
+            comando.Dispose();
+            ligacao.Dispose();
+
             MessageBox.Show("Base de dados criada com sucesso!");
+
+            #endregion
         }
+
+        //----------------------------------------------
+        public DataTable Exe_Reader(string query)
+        {
+            // ler ou pesquisar informações da base de dados
+            // SELECT
+            DataTable dados = new DataTable();
+            adapter = new SqlCeDataAdapter(query, strConn);
+
+            // executar a query
+            try
+            {
+                adapter.Fill(dados);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message, "Erro", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            return dados;
+        }
+        
     }
 }

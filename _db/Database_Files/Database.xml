@@ -21,4 +21,8 @@
   </mru>
   <mru type="SQLCe" value="E:\csharp\_db\Database_Files\loja.sdf" r="loja.sdf" v="2" l="0" e="" a="2" d="15/12/2022" b="" z="TABLES (2)\clientes|1|">
   </mru>
+  <mru type="SQLCe" value="E:\csharp\_db\Database_Files\teste.sdf" r="teste.sdf" v="2" l="0" e="" a="2" d="15/12/2022" b="" k="False" PWD="" z="TABLES (2)\compras|1|">
+  </mru>
+  <mru type="SQLCe" value="E:\csharp\_db\Database_Files\loja2.sdf" r="loja2.sdf" v="2" l="0" e="" a="2" d="15/12/2022" b="" z="TABLES (2)\clientes|1|">
+  </mru>
 </DatabaseNET>
