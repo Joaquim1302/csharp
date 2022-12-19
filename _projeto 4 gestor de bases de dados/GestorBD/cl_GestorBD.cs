@@ -18,12 +18,28 @@ namespace GestorBD
     public class cl_GestorBD
     {
         SqlCeConnection ligacao;
-        SqlCeCommand comando;
+        SqlCeCommand com;
         SqlCeDataAdapter adapter;
+        SqlCeDataAdapter temp_adapter;
 
         string strConn = "";
         string pasta_bd = @"E:\csharp\_db\Database_Files\";
         string bd_password = "";
+
+        //----------------------------------------------
+        // cria a classe de paramatros de SQL
+        public class SQLParametros
+        {
+            public string param { get; set; }
+            public object valor { get; set; }
+
+            public SQLParametros(string param, object valor) 
+            { 
+                this.param = param;
+                this.valor = valor;
+            }
+
+        }
 
         //----------------------------------------------
         public cl_GestorBD() { } // somente para poder usar algum método propriedade
@@ -119,8 +135,8 @@ namespace GestorBD
             strConn = str.ToString();
             ligacao = new SqlCeConnection(strConn);
             ligacao.Open();
-            comando = new SqlCeCommand();
-            comando.Connection = ligacao;
+            com = new SqlCeCommand();
+            com.Connection = ligacao;
 
             // executa as instruções para criar as tabelas
             str = null;
@@ -135,8 +151,8 @@ namespace GestorBD
                 else if (item == "END")
                 {
                     // fechar a criação da query e executá-la
-                    comando.CommandText = str.ToString();
-                    comando.ExecuteNonQuery();
+                    com.CommandText = str.ToString();
+                    com.ExecuteNonQuery();
                 }
                 else
                 {
@@ -146,7 +162,7 @@ namespace GestorBD
             } 
 
             // fecha o comando e a ligação
-            comando.Dispose();
+            com.Dispose();
             ligacao.Dispose();
 
             MessageBox.Show("Base de dados criada com sucesso!");
@@ -155,16 +171,24 @@ namespace GestorBD
         }
 
         //----------------------------------------------
-        public DataTable Exe_Reader(string query)
+        public DataTable Exe_Reader(string query, List<SQLParametros> parametros)
         {
             // ler ou pesquisar informações da base de dados
             // SELECT
             DataTable dados = new DataTable();
             adapter = new SqlCeDataAdapter(query, strConn);
+            adapter.SelectCommand.Parameters.Clear();
 
             // executar a query
             try
             {
+                // insere os parametros na query
+                if (parametros != null)
+                {
+                    foreach (SQLParametros p in parametros)
+                        adapter.SelectCommand.Parameters.AddWithValue(p.param, p.valor);
+                }
+
                 adapter.Fill(dados);
             }
             catch (Exception ex)
@@ -175,6 +199,123 @@ namespace GestorBD
 
             return dados;
         }
-        
+
+        //----------------------------------------------
+        public void Exe_Non_Query(string query, List<SQLParametros> parametros = null)
+        {
+            // executar queries do tipo INSERT, DELETE, UPDATE, etc...
+            ligacao = new SqlCeConnection(strConn);
+            ligacao.Open();
+
+            com = new SqlCeCommand(query, ligacao);
+            com.Parameters.Clear();
+
+            try
+            {
+                // adição dos parametros no comando
+                if ( parametros != null)
+                    foreach(SQLParametros p in parametros) 
+                        com.Parameters.AddWithValue(p.param, p.valor);
+
+                // executar a query
+                com.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message, "Erro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            // destruir com e ligação
+            com.Dispose();
+            ligacao.Dispose();
+        }
+
+        //----------------------------------------------
+        public int Id_Disponivel(string tabela, string coluna)
+        {
+            // devolve o id disponivel para o próximo registro
+            int idtemp = -1;
+            ligacao= new SqlCeConnection(strConn);
+            ligacao.Open();
+
+            string query = "SELECT MAX(" + coluna + ") AS MaxID FROM " + tabela;
+            DataTable dados = new DataTable();  
+            adapter = new SqlCeDataAdapter(query, strConn);
+            adapter.Fill(dados);
+
+            // verifica se é DBNull
+            if (dados.Rows.Count != 0)
+            {
+                if (DBNull.Value.Equals(dados.Rows[0][0]))
+                    idtemp = 0;
+                else
+                    idtemp = Convert.ToInt16(dados.Rows[0][0]) + 1;
+            }
+
+            
+
+            ligacao.Dispose();
+            return idtemp;
+        }
+
+        //----------------------------------------------
+        public DataTable Preparar_DataTable(string query)
+        {
+            temp_adapter = new SqlCeDataAdapter(query, strConn);
+            DataTable dados = new DataTable();
+            try
+            {
+                temp_adapter.Fill(dados);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message, "Erro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return dados;
+        }
+
+        //----------------------------------------------
+        public void Gravar_DataTable(DataTable dados)
+        {
+            // atualiza a informação na base de dados
+            SqlCeCommandBuilder cmd = new SqlCeCommandBuilder(temp_adapter);
+            temp_adapter.UpdateCommand = cmd.GetUpdateCommand();
+
+            try
+            {
+                temp_adapter.Update(dados);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message, "Erro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            temp_adapter.Dispose();
+        }
+
+        //----------------------------------------------
+        public bool Compactar_Base_Dados()
+        {
+            // compacta a base de dados
+            bool concluido = false;
+
+            try
+            {
+                SqlCeEngine motor = new SqlCeEngine();
+                motor.LocalConnectionString = strConn;
+                motor.Compact(strConn);
+                concluido = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message, "Erro",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return concluido;
+        }
+
     }
 }
