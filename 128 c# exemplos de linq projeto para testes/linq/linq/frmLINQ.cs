@@ -63,6 +63,7 @@ namespace linq
             // execução dos testes de linq
             //----------------------------------
 
+            #region CLÁUSULA WHERE
             //----------------------------------
             // cláusula where
 
@@ -87,10 +88,61 @@ namespace linq
             //foreach (KeyValuePair<string, double> resultado in resultados)
             //    lista.Items.Add(resultado.Key + " - " + resultado.Value);            
 
-            // 04 usabdo dicionário
-            var resultados = lista_produtos.Where(produto => produto.Key.StartsWith("M"));
-            foreach (KeyValuePair<string, double> resultado in resultados)
-                lista.Items.Add(resultado.Key + " - " + resultado.Value);
+            // 03b usando função lambda
+            //var resultados = lista_produtos.Where(produto => produto.Key.StartsWith("M"));
+            //foreach (KeyValuePair<string, double> resultado in resultados)
+            //    lista.Items.Add(resultado.Key + " - " + resultado.Value);
+            #endregion
+
+            #region REFERÊNCIA A CLASSES
+            //----------------------------------
+            // referência a classes
+            // 01 resultado é uma lista de strings
+            //var resultados1 = from aluno in lista_alunos
+            //                 select aluno.nome;
+            //foreach(string n in resultados1)
+            //{
+            //    lista.Items.Add(n);
+            //}
+            //lista.Items.Add("\n");
+
+            //// 02 resultado é uma lista de ojetos da classe cl_alunos
+            //var resultados2 = from aluno in lista_alunos
+            //                 select aluno;
+            //foreach (cl_alunos n in resultados2)
+            //{
+            //    lista.Items.Add("O aluno n.º " + n.numero + " é " + n.nome);
+            //}
+            //lista.Items.Add("\n");
+
+            //// 03 resultado é uma lista de ojetos da classe cl_alunos
+            //var resultados3 = from aluno in lista_alunos
+            //                  select aluno;
+            //foreach (cl_alunos n in resultados3)
+            //{
+            //    lista.Items.Add("O aluno n.º " + n.numero + " é " + n.nome);
+            //}
+            //lista.Items.Add("\n");
+
+            //// 04 resultado é uma lista strins com a contatenação feita no select
+            //var resultados4 = from aluno in lista_alunos
+            //                  select "O aluno n.º " + 
+            //                  aluno.numero + " é " +
+            //                  aluno.nome;
+            //foreach (string n in resultados4)
+            //{
+            //    lista.Items.Add(n);
+            //}
+            #endregion
+
+
+            //----------------------------------
+            // tipos anônimos
+            var turmaA = from a in lista_alunos
+                        where a.nome.Contains("a")
+                        select new { num = a.numero, nom = a.nome, sex = a.sexo };
+            foreach(var aluno in turmaA)
+                lista.Items.Add(aluno.nom);
 
             //----------------------------------
             ////saber quantos alunos são do sexo feminino
