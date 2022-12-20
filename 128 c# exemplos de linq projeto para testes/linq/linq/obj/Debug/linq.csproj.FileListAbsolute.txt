@@ -1,0 +1,17 @@
+C:\csharp\linq\linq\bin\Debug\linq.exe
+C:\csharp\linq\linq\bin\Debug\linq.pdb
+C:\csharp\linq\linq\obj\Debug\linq.Properties.Resources.resources
+C:\csharp\linq\linq\obj\Debug\linq.csproj.GenerateResource.Cache
+C:\csharp\linq\linq\obj\Debug\linq.exe
+C:\csharp\linq\linq\obj\Debug\linq.pdb
+C:\csharp\linq\linq\obj\Debug\linq.csprojResolveAssemblyReference.cache
+C:\csharp\linq\linq\obj\Debug\linq.frmLINQ.resources
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\bin\Debug\linq.exe
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\bin\Debug\linq.pdb
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.csproj.AssemblyReference.cache
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.frmLINQ.resources
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.Properties.Resources.resources
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.csproj.GenerateResource.cache
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.csproj.CoreCompileInputs.cache
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.exe
+E:\csharp\128 c# exemplos de linq projeto para testes\linq\linq\obj\Debug\linq.pdb

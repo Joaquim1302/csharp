@@ -1,0 +1,11 @@
+E:\csharp\126 c# introducao ao linq\Linq\bin\Debug\Linq.exe.config
+E:\csharp\126 c# introducao ao linq\Linq\bin\Debug\Linq.exe
+E:\csharp\126 c# introducao ao linq\Linq\bin\Debug\Linq.pdb
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.csproj.SuggestedBindingRedirects.cache
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.Form1.resources
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.Properties.Resources.resources
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.csproj.GenerateResource.cache
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.exe
+E:\csharp\126 c# introducao ao linq\Linq\obj\Debug\Linq.pdb
