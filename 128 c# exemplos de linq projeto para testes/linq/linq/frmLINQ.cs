@@ -124,7 +124,7 @@ namespace linq
             //}
             //lista.Items.Add("\n");
 
-            //// 04 resultado é uma lista strins com a contatenação feita no select
+            //// 04 resultado é uma lista strings com a contatenação feita no select
             //var resultados4 = from aluno in lista_alunos
             //                  select "O aluno n.º " + 
             //                  aluno.numero + " é " +
@@ -135,22 +135,114 @@ namespace linq
             //}
             #endregion
 
-
+            #region TIPOS ANÔNIMOS - SELECT COM NEW SEM CRIAR OBJETO
             //----------------------------------
             // tipos anônimos
-            var turmaA = from a in lista_alunos
-                        where a.nome.Contains("a")
-                        select new { num = a.numero, nom = a.nome, sex = a.sexo };
-            foreach(var aluno in turmaA)
-                lista.Items.Add(aluno.nom);
+            //var turmaA = from a in lista_alunos
+            //             where a.nome.Contains("a")
+            //             select new { num = a.numero, nom = a.nome, sex = a.sexo };
+            //foreach (var aluno in turmaA)
+            //    lista.Items.Add(aluno.nom);
+            #endregion
 
+            #region ORDENAÇÃO - CLÁUSULA ORDERBY
             //----------------------------------
-            ////saber quantos alunos são do sexo feminino
+            // 01 ordenação nomes de alunos sexo masculino
+            //var turma1 = from aluno in lista_alunos
+            //            where aluno.sexo == "masculino"
+            //            orderby aluno.nome
+            //            select aluno;
+            //foreach (cl_alunos aluno in turma1)
+            //    lista.Items.Add(aluno.nome);            
+
+            // 02 ordenar pelo tamanho do nome
+            //var turma2 = from aluno in lista_alunos
+            //            where aluno.sexo == "masculino"
+            //            orderby aluno.nome.Length
+            //            select aluno;
+            //foreach (cl_alunos aluno in turma2)
+            //    lista.Items.Add(aluno.nome + " [" + aluno.nome.Length + "]");
+
+            // 03 ordenar descendente pelo tamanho do nome
+            //var turma3 = from aluno in lista_alunos
+            //            where aluno.sexo == "masculino"
+            //            orderby aluno.nome.Length descending
+            //            select aluno;
+            //foreach (cl_alunos aluno in turma3)
+            //    lista.Items.Add(aluno.nome + " [" + aluno.nome.Length + "]");
+
+            // 04 dictionary produto por preço
+            //var produtos = from produto in lista_produtos
+            //               orderby produto.Value ascending
+            //               select produto;
+            //foreach (KeyValuePair<string, double> produto in produtos)
+            //    lista.Items.Add(produto.Key + ": " + produto.Value);
+
+            // 05 dictionary produto por preço - lambda
+            //var produtos5 = lista_produtos.OrderByDescending(i => i.Key);
+            //foreach (KeyValuePair<string, double> produto in produtos5)
+            //    lista.Items.Add(produto.Key + ": " + produto.Value);
+
+            #endregion
+
+            #region OPERADORES DE AGREGAÇÃO
+            //----------------------------------
+            //01 saber quantos alunos são do sexo feminino
             //int numero_alunas = (from aluno in lista_alunos
             //                     where aluno.sexo == "feminino"
             //                     select aluno).Count();
-            ////label_resultado.Text = "Esta turma tem " + numero_alunas + " alunas.";
             //label_resultado.Text = string.Format("Esta turma tem {0} alunas.", numero_alunas);
+            //var turma = lista_alunos.Where(s => s.sexo == "feminino");
+            //int i = 1;
+            //foreach (cl_alunos aluno in turma)
+            //{
+            //    lista.Items.Add(i + ": " + aluno.nome);
+            //    i++;
+            //}
+
+            // 02 operador SUM
+            //label_resultado.Text =  "A soma dos números é " + lista_numeros.Sum();
+            //foreach (int v in lista_numeros)
+            //    lista.Items.Add(v);
+
+            // 03 operador MIN
+            //int resultado = lista_nomes.Min(i => i.Length);
+            //label_resultado.Text = "O menor nome da lista tem " + resultado + " caracteres";
+
+            // 04 função AGERAGE
+            //double media = lista_numeros.Average();
+            //label_resultado.Text = media.ToString();
+
+            #endregion
+
+            #region CONTATENAÇÃO DE OERADORES LAMBDA
+            // contatenação de operadores
+            //label_resultado.Text =   lista_numeros.Where(i => i <= 15).Sum() + " é soma dos números menores que 15" +;
+            //var numeros = lista_numeros.Where(i => i <= 15);
+            //foreach (int i in numeros)
+            //    lista.Items.Add(i);
+            #endregion
+
+            #region OPERADORES DE ELEMENTO
+
+            // método FirstOrDefault
+            //List<string> lista_teste = new List<string>() { };
+            //label_resultado.Text = lista_teste.FirstOrDefault();
+
+            // método ElementAt
+            try
+            {
+                label_resultado.Text = lista_nomes.Where(i => i.Contains("Silva")).ElementAt(3); // se não existir dá erro
+            }
+            catch
+            {
+                label_resultado.Text = "Não existe";
+            }
+            var nomes = lista_nomes.Where(i => i.Contains("Silva"));
+            foreach (string i in nomes)
+                lista.Items.Add(i);
+            #endregion
+
 
             ////----------------------------------
             ////saber os resultados dos exames de matemática
