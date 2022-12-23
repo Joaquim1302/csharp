@@ -186,30 +186,17 @@ namespace linq
             #endregion
 
             #region OPERADORES DE AGREGAÇÃO
-            //----------------------------------
-            //01 saber quantos alunos são do sexo feminino
-            //int numero_alunas = (from aluno in lista_alunos
-            //                     where aluno.sexo == "feminino"
-            //                     select aluno).Count();
-            //label_resultado.Text = string.Format("Esta turma tem {0} alunas.", numero_alunas);
-            //var turma = lista_alunos.Where(s => s.sexo == "feminino");
-            //int i = 1;
-            //foreach (cl_alunos aluno in turma)
-            //{
-            //    lista.Items.Add(i + ": " + aluno.nome);
-            //    i++;
-            //}
 
-            // 02 operador SUM
+            // 01 operador SUM
             //label_resultado.Text =  "A soma dos números é " + lista_numeros.Sum();
             //foreach (int v in lista_numeros)
             //    lista.Items.Add(v);
 
-            // 03 operador MIN
+            // 02 operador MIN
             //int resultado = lista_nomes.Min(i => i.Length);
             //label_resultado.Text = "O menor nome da lista tem " + resultado + " caracteres";
 
-            // 04 função AGERAGE
+            // 04 função AVERAGE
             //double media = lista_numeros.Average();
             //label_resultado.Text = media.ToString();
 
@@ -225,78 +212,89 @@ namespace linq
 
             #region OPERADORES DE ELEMENTO
 
-            // método FirstOrDefault
+            // 01 método FirstOrDefault
             //List<string> lista_teste = new List<string>() { };
             //label_resultado.Text = lista_teste.FirstOrDefault();
 
             // método ElementAt
-            try
-            {
-                label_resultado.Text = lista_nomes.Where(i => i.Contains("Silva")).ElementAt(3); // se não existir dá erro
-            }
-            catch
-            {
-                label_resultado.Text = "Não existe";
-            }
-            var nomes = lista_nomes.Where(i => i.Contains("Silva"));
-            foreach (string i in nomes)
-                lista.Items.Add(i);
-            #endregion
+            //try
+            //{
+            //    label_resultado.Text = lista_nomes.Where(i => i.Contains("Silva")).ElementAt(3); // se não existir dá erro
+            //}
+            //catch
+            //{
+            //    label_resultado.Text = "Não existe";
+            //}
+            //var nomes = lista_nomes.Where(i => i.Contains("Silva"));
+            //foreach (string i in nomes)
+            //    lista.Items.Add(i);
 
+            // 02 saber quantos alunos são do sexo feminino
+            //int numero_alunas = (from aluno in lista_alunos
+            //                     where aluno.sexo == "feminino"
+            //                     select aluno).Count();
+            //label_resultado.Text = string.Format("Esta turma tem {0} alunas.", numero_alunas);
+            //var turma = lista_alunos.Where(s => s.sexo == "feminino");
+            //int i = 1;
+            //foreach (cl_alunos aluno in turma)
+            //{
+            //    lista.Items.Add(i + ": " + aluno.nome);
+            //    i++;
+            //}
 
-            ////----------------------------------
-            ////saber os resultados dos exames de matemática
+            // 03 saber os resultados dos exames de matemática
             //var notas_matematica = from nota in lista_alunos
             //                       select nota.EXAMES[0];
             //foreach (var nota in notas_matematica)
             //    lista.Items.Add("Nota de matemática = " + nota.nota_exame);
 
-
-            ////----------------------------------
-            ////numero de alunas (lambda)
+            // 04 numero de alunas (lambda)
             //int numero_alunas = lista_alunos.Where(i => i.sexo == "feminino").Count();
             //label_resultado.Text = "Numero alunas: " + numero_alunas;
+            //foreach (var alunas in lista_alunos.Where(i => i.sexo == "feminino"))
+            //    lista.Items.Add(alunas.nome);
 
-            ////----------------------------------
-            ////lista de notas do exame de matemática (lambda)
-            //var notas = lista_alunos.Select(i => i.EXAMES[0]);
+            // 05 lista de notas do exame de matemática (lambda)
+            //int matematica = 0;
+            //var notas = lista_alunos.Select(i => i.EXAMES[matematica]);
             //foreach (var nota in notas)
             //    lista.Items.Add(nota.nota_exame);
 
-            ////----------------------------------
-            ////saber quantos alunos tiveram positiva no exame de matemática
-            //int positivas_matematica = lista_alunos.Where(i => i.EXAMES[0].nota_exame >= 10).Count();
-            //label_resultado.Text = string.Format("Na turma, {0} alunos tiveram positiva a Matemática.", positivas_matematica);
-
-            ////----------------------------------
-            ////saber quantos alunos tiveram positiva no exame de matemática
+            // 06a saber quantos alunos tiveram positiva no exame de matemática
             //int positivas_matematica = (from aluno in lista_alunos
             //                            where aluno.EXAMES[0].nota_exame >= 10
             //                            select aluno).Count();
             //label_resultado.Text = string.Format("Na turma, {0} alunos tiveram positiva a Matemática.", positivas_matematica);
 
-            ////----------------------------------
-            ////média das notas do exame de matemática
-            ////double media_matematica = lista_alunos.Average(i => i.EXAMES[0].nota_exame);
+            // 06b saber quantos alunos tiveram positiva no exame de matemática
+            // LAMBDA WHERE
+            //int positivas_matematica = lista_alunos.Where(i => i.EXAMES[0].nota_exame >= 10).Count();
+            //label_resultado.Text = string.Format("Na turma, {0} alunos tiveram positiva a Matemática.", positivas_matematica);
+
+            //07a MÉDIA das notas do exame de matemática
             //double media_matematica = (from aluno in lista_alunos
             //                           select aluno.EXAMES[0].nota_exame).Average();
+            //label_resultado.Text = string.Format("A média dos exames de Matemática foi {0}.", media_matematica);
 
-            //label_resultado.Text = string.Format("A média dos exames de Matemática foi {0} valores.", media_matematica);
+            //07b MÉDIA LAMBDA das notas do exame de matemática
+            //double media_matematica = lista_alunos.Average(i => i.EXAMES[0].nota_exame);
+            //label_resultado.Text = string.Format("A média dos exames de Matemática foi {0}.", media_matematica);
 
-            ////----------------------------------
-            //var notas_biologia = lista_alunos.Select(i => i.EXAMES[2].nota_exame);
+            // 08 MÉDIA das notas do exame de biologia
+            //int biologia = 2;
+            //label_resultado.Text = "Média de biologia= " + lista_alunos.Average(i => i.EXAMES[biologia].nota_exame);
+            //var notas_biologia = lista_alunos.Select(i => i.EXAMES[biologia].nota_exame);
             //foreach (var nota in notas_biologia)
             //    lista.Items.Add(nota);
 
-            //----------------------------------
-            //média das positivas de biologia
+            // 09 média das positivas de biologia 
+            // LAMBDA ENCADEADA
             //double media_biologia = lista_alunos.Where(i => i.EXAMES[2].nota_exame >= 10).Average(i => i.EXAMES[2].nota_exame);
-            //label_resultado.Text = string.Format("A média das positivas de biologia é {0} valores.", media_biologia);
+            //label_resultado.Text = string.Format("A média das positivas de biologia é {0}.", media_biologia);
 
-            ////----------------------------------
-            ////média de notas de cada aluno
+            // 10 média de notas de cada aluno
             //var notas = from aluno in lista_alunos
-            //            select new
+            //            select new // NOVO OBJETO
             //            {
             //                nome = aluno.nome,
             //                media = (aluno.EXAMES[0].nota_exame +
@@ -308,8 +306,8 @@ namespace linq
             //foreach (var nota in notas)
             //    lista.Items.Add(nota.nome + " - " + nota.media);
 
-            ////----------------------------------
-            ////listagem de notas de matemática por ordem decrescente
+            // 11 listagem de notas de matemática por ordem decrescente 
+            // ORDENAÇÃO VALE A PENA USAR LAMBDA 
             //var alunos = (
 
             //             from aluno in lista_alunos
@@ -324,8 +322,7 @@ namespace linq
             //foreach (var aluno in alunos)
             //    lista.Items.Add(aluno.nome + " - " + aluno.nota_matematica);
 
-            ////----------------------------------
-            ////qual é o melhor aluno no geral
+            // 12 qual é o melhor aluno no geral
             //var alunos = (from aluno in lista_alunos
             //              select new
             //              {
@@ -337,27 +334,44 @@ namespace linq
             //foreach (var aluno in alunos)
             //    lista.Items.Add(string.Format("{0} tem um total de {1} valores.", aluno.nome, aluno.total_notas));
 
+            //label_resultado.Text = "O primeiro colocado é: " + alunos.FirstOrDefault().nome;
 
-            //DATATABLE
+
+            #endregion
+
+            #region DATATABLE
+
+            // 01 mostrado os dados
             //foreach (DataRow linha in dados.Rows)
             //{
-            //    lista.Items.Add(string.Format("id_cliente = {0} | nome_cliente = {1} | cidade = {2} | num. encomendas = {3}",
-            //                    linha["id_cliente"].ToString(), linha["nome_cliente"].ToString(),
-            //                    linha["cidade"].ToString(), linha["numero_encomendas"].ToString()));
+            //    lista.Items.Add
+            //    (
+            //            string.Format
+            //            (
+            //                "id_cliente = {0} | nome_cliente = {1} | cidade = {2} | num. encomendas = {3}",
+            //                linha["id_cliente"].ToString(), 
+            //                linha["nome_cliente"].ToString(),
+            //                linha["cidade"].ToString(), 
+            //                linha["numero_encomendas"].ToString()
+            //            )
+            //    );
             //}
 
-            ////--------------------------------------------
-            ////nomes dos clientes
+            // 02 mostrar apenas os nomes dos clientes
+            // .AsEnumerable()  Retorna um objeto IEnumerable<T> em que o parâmetro genérico T é DataRow.
+            // Esse objeto pode ser usado em uma expressão LINQ ou consulta de método.
             //var clientes = from cliente in dados.AsEnumerable()
             //               select cliente["nome_cliente"].ToString();
             //foreach (var cliente in clientes)
             //    lista.Items.Add(cliente);
 
-            //--------------------------------------------
-            //nomes dos clientes
+            // 03a nomes dos clientes ordenados
             //var clientes = (from cliente in dados.AsEnumerable()
             //                select cliente.Field<string>("nome_cliente")).OrderBy(i => i);
+            //foreach (var cliente in clientes)
+            //    lista.Items.Add(cliente);
 
+            // 03b nomes dos clientes ordenados
             //var clientes = (
             //               from cliente in dados.AsEnumerable()
             //               select new
@@ -365,11 +379,10 @@ namespace linq
             //                   nome = cliente.Field<string>("nome_cliente")
             //               }
             //               ).OrderBy(i => i.nome);
-
-
             //foreach (var cliente in clientes)
             //    lista.Items.Add(cliente.nome);
 
+            // 04 clientes com suas encomendas
             //var clientes = (from cliente in dados.AsEnumerable()
             //                select new
             //                {
@@ -377,17 +390,22 @@ namespace linq
             //                    numero_encomendas = (int)cliente["numero_encomendas"]
             //                }).OrderByDescending(i => i.numero_encomendas);
             //foreach (var cliente in clientes)
-            //    lista.Items.Add(string.Format("O cliente {0} tem {1} encomendas no total.",cliente.nome, cliente.numero_encomendas));
+            //    lista.Items.Add(string.Format("O cliente {0} tem {1} encomendas no total.", cliente.nome, cliente.numero_encomendas));
 
-            //var clientes = from cliente in dados.AsEnumerable()
-            //               where cliente.Field<string>("cidade") == "Paris"
-            //               select new
-            //               {
-            //                   nome = cliente["nome_cliente"].ToString(),
-            //                   cidade = cliente.Field<string>("cidade")
-            //               };
-            //foreach (var cliente in clientes)
-            //    lista.Items.Add(cliente.nome + " - " + cliente.cidade);
+
+            // 05 lista clientes de uma cidade
+            var clientes = from cliente in dados.AsEnumerable()
+                           where cliente.Field<string>("cidade") == "Rio de Janeiro"
+                           select new
+                           {
+                               nome = cliente["nome_cliente"].ToString(),
+                               cidade = cliente.Field<string>("cidade")
+                           };
+            foreach (var cliente in clientes)
+                lista.Items.Add(cliente.nome + " - " + cliente.cidade);
+
+            #endregion
+
         }
     }
 }
