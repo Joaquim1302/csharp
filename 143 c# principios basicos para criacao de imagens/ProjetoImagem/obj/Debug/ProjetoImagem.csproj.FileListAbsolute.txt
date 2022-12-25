@@ -1,0 +1,22 @@
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\bin\Debug\ProjetoImagem.exe.config
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\bin\Debug\ProjetoImagem.exe
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\bin\Debug\ProjetoImagem.pdb
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.AssemblyReference.cache
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.SuggestedBindingRedirects.cache
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.Form1.resources
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.Properties.Resources.resources
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.GenerateResource.cache
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.CoreCompileInputs.cache
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.exe
+E:\csharp\138 c# introducao a utilizacao de imagem em c#\ProjetoImagem\obj\Debug\ProjetoImagem.pdb
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\bin\Debug\ProjetoImagem.exe.config
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\bin\Debug\ProjetoImagem.exe
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\bin\Debug\ProjetoImagem.pdb
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.AssemblyReference.cache
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.SuggestedBindingRedirects.cache
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.Form1.resources
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.Properties.Resources.resources
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.GenerateResource.cache
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.CoreCompileInputs.cache
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.exe
+E:\csharp\143 c# principios basicos para criacao de imagens\ProjetoImagem\obj\Debug\ProjetoImagem.pdb
