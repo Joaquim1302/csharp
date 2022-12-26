@@ -68,6 +68,7 @@
             this.ClientSize = new System.Drawing.Size(720, 399);
             this.Controls.Add(this.cmd_teste);
             this.Controls.Add(this.pic_teste);
+            this.ForeColor = System.Drawing.Color.SeaGreen;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -1,0 +1,11 @@
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.exe.config
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.exe
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.pdb
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.AssemblyReference.cache
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.SuggestedBindingRedirects.cache
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.Form1.resources
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.Properties.Resources.resources
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.GenerateResource.cache
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.CoreCompileInputs.cache
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.exe
+E:\csharp\150 c# animacao com detecao de colisoes\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.pdb

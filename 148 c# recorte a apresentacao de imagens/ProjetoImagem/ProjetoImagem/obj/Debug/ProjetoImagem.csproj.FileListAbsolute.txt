@@ -1,0 +1,11 @@
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.exe.config
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.exe
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\bin\Debug\ProjetoImagem.pdb
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.AssemblyReference.cache
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.SuggestedBindingRedirects.cache
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.Form1.resources
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.Properties.Resources.resources
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.GenerateResource.cache
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.csproj.CoreCompileInputs.cache
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.exe
+E:\csharp\148 c# recorte a apresentacao de imagens\ProjetoImagem\ProjetoImagem\obj\Debug\ProjetoImagem.pdb
